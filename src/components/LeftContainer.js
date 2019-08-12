@@ -1,8 +1,7 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import CenteredImage from "./CenteredImage";
-import ProfilePic from '../assets/image.png';
-//import ProfilePic from '../assets/Marcelo.jpg';
+import ProfilePic from '../assets/Marcelo.jpg';
 import IconsLink from "./IconsLink";
 
 const LeftContainer = () => {
