@@ -3,6 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import CenteredImage from "./CenteredImage";
 import ProfilePic from '../assets/Marcelo.jpg';
 import IconsLink from "./IconsLink";
+import CertificationsBadge from "./CertificationsBadge";
 
 const LeftContainer = () => {
 
@@ -17,6 +18,7 @@ const LeftContainer = () => {
 		<Grid item xs={4} className="left-container">
 			<CenteredImage image={ProfilePic} />
 			<IconsLink links={icons}/>
+			<CertificationsBadge />
 		</Grid>
 	);
 };
