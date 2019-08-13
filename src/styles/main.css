@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap');
+
 #root {
 	background-image: url(https://camo.githubusercontent.com/5b8e4cd1a5ce69b6affa17ebd8e4aee00c147618/68747470733a2f2f7374796c6973687468656d65732e6769746875622e696f2f4769744875622d4461726b2f696d616765732f6261636b67726f756e64732f62672d63726f737368617463682e706e67);
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-		"Segoe UI Symbol", "Noto Color Emoji";
+	font-family: "Lato";
 	font-size: 1rem;
 	font-weight: 400;
 	line-height: 1.5;
@@ -68,42 +68,46 @@
 	justify-content: space-between;
 }
 
+.no-padding-ul {
+	padding-left: 20px;
+}
+
 .job-period-subtitle {
 	margin-bottom: .5rem;
 	font-family: inherit;
 	font-size: 1.2em;
 	font-weight: 200;
 	line-height: 0;
-	color: white;
-	text-decoration-color: white;
+}
+
+.job-period > a {
+	text-decoration-color: lightblue;
+}
+
+.job-period > a > h4 {
+	color: lightblue;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.2;
+	font-weight: 200;
+	font-family: 'Montserrat';
 }
 
 h1 {
 	margin-bottom: .5rem;
-	font-family: inherit;
 	font-size: 3.0em;
-	font-weight: 200;
-	line-height: 1.2;
-	color: inherit;
 }
 
 h2 {
 	margin-top: 50px;
 	margin-bottom: .5rem;
-	font-family: inherit;
 	font-size: 1.6em;
 	font-weight: 500;
-	line-height: 1.2;
-	color: inherit;
 }
 
 h3 {
 	margin-bottom: .1rem;
-	font-family: inherit;
-	font-size: 1.5em;
-	font-weight: 200;
-	line-height: 1.2;
-	color: inherit;
 }
 
 .profile-pic {
@@ -134,4 +138,8 @@ h3 {
 .certification-pic {
 	width: 100px;
 	height: 100px;
+}
+
+.experiences, .qualifications, .languages {
+	padding-left: 20px;
 }
