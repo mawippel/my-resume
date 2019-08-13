@@ -45,9 +45,9 @@ const RightContainer = () => {
 					<h3>{t("exp-occupation-1")}</h3>
 					<div className="job-period">
 						<a href="https://www.teclogica.com.br/">
-							<h4 className="job-period-h4">Teclógica</h4>
+							<h4 className="job-period-subtitle">Teclógica</h4>
 						</a>
-						<h4 className="job-period-h4">10/2018 - {t("now")}</h4>
+						<h4 className="job-period-subtitle">10/2018 - {t("now")}</h4>
 					</div>
 					<p>{t("exp-1-1")}</p>
 					<p>
@@ -61,8 +61,8 @@ const RightContainer = () => {
 				<div>
 					<h3>{t("exp-occupation-2")}</h3>
 					<div className="job-period">
-						<h4 className="job-period-h4">Pública Tecnologia</h4>
-						<h4 className="job-period-h4">08/2016 - 10/2018</h4>
+						<h4 className="job-period-subtitle">Pública Tecnologia</h4>
+						<h4 className="job-period-subtitle">08/2016 - 10/2018</h4>
 					</div>
 
 					<p>{t("exp-2-1")}</p>
@@ -78,8 +78,8 @@ const RightContainer = () => {
 				<div>
 					<h3>{t("exp-occupation-3")}</h3>
 					<div className="job-period">
-						<h4 className="job-period-h4">Pública Tecnologia</h4>
-						<h4 className="job-period-h4">03/2016 - 08/2016</h4>
+						<h4 className="job-period-subtitle">Pública Tecnologia</h4>
+						<h4 className="job-period-subtitle">03/2016 - 08/2016</h4>
 					</div>
 
 					<p>{t("exp-3-1")}</p>
