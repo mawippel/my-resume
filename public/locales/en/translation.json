@@ -1,0 +1,40 @@
+{
+	"now": "Now",
+	
+	"bio-1": "I'm Marcelo, a Brazilian Software Engineer, passionate about Software Development and best practices.",
+	"bio-2": "A Experienced Full Stack Engineer with a demonstrated history of working in the information technology and services industry. Skilled in Java, Spring MVC, Spring Boot, JavaEE, Maven, Hibernate, SOLID Principles, and Front End technologies such as React, React Native, Javascript, JQuery, HTML and CSS.",
+	"bio-3": "Student of Information Systems at the Regional University of Blumenau (FURB).",
+	"bio-4": "Enthusiast and lover of technology.",
+	
+	"exp-title": "Experience",
+	"exp-occupation-1": "Full Stack Developer",
+	"exp-1-1": "Working as a FullStack developer, developing projects in different business areas.",
+	"exp-1-2": "Java, Oracle, PostgreSQL, Java EE, Hibernate,Maven, ActiveMQ, Oracle AQ, JBoss, Wildfly, WebLogic and the CI maintenance (Jenkins).",
+	"exp-1-3": "React, HTML5, JQuery, CSS, Javascript (ES6+) and NodeJS.",
+	
+	"exp-occupation-2": "Backend Developer",
+	"exp-2-1": "Worked as a BackEnd developer implementing new features and bug fixes on e-Publica, an ERP system developed to government entities management used by more than 100 cities in Brazil.",
+	"exp-2-2": "Java, Spring Framework, Hibernate, Maven and Wildfly.",
+	"exp-2-3": "AngularJS, Angular 2+, HTML5 and CSS3.",
+
+	"exp-occupation-3": "Trainee - Software Developer",
+	"exp-3-1": "Worked customizing and implementing new features on Senior Sistemas' ERP.",
+	"exp-3-2": "SQL Server and LSP (Linguagem Senior de Programação).",
+
+	"qualifications-title":"Qualifications and Professional Activies",
+	"qualifications-subtitle-1":"Programming Languages/Frameworks:",
+	"qualifications-subtitle-2":"EE Frameworks:",
+	"qualifications-subtitle-3":"Application Servers:",
+	"qualifications-subtitle-4":"Databases:",
+	"qualifications-desc-1":"Java, JavaScript (ES6+), React, React Native, AngularJS, Angular2+ (TypeScript), Python and NodeJS;",
+	"qualifications-desc-2":"Spring Boot, JavaEE and Spring Framework;",
+	"qualifications-desc-3":"Jboss, Wildfly, WebLogic and WebSphere Liberty;",
+	"qualifications-desc-4":"MySQL, SQLServer, PostgreSQL and Oracle;",
+
+	"certifications":"Certifications and Courses",
+	"certificate":"Certificate",
+
+	"languages-title":"Languages",
+	"languages-1": "Portuguese - Native",
+	"languages-2": "(01/2013 - 12/2018) English - Yázigi - CEFR Level 2"
+}

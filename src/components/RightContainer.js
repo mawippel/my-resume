@@ -1,127 +1,119 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
+import { useTranslation } from "react-i18next";
+import brFlag from "../assets/brazil-flag.png";
+import usFlag from "../assets/us-flag.png";
 
 const RightContainer = () => {
+	const { t, i18n } = useTranslation();
+
+	const changeLanguage = lng => {
+		i18n.changeLanguage(lng);
+	};
+
 	return (
 		<Grid item xs={8} className="right-container">
 			<div className="right-content-container">
-				<div>
+				<div className="job-period">
 					<h1>Marcelo Wippel</h1>
-					<hr />
+					<div className="flags">
+						<img
+							src={brFlag}
+							onClick={changeLanguage("pt")}
+							alt="Brazil Flag"
+							className="flag"
+						/>
+						<img
+							src={usFlag}
+							onClick={changeLanguage("en")}
+							alt="US Flag"
+							className="flag"
+						/>
+					</div>
 				</div>
+				<hr />
 				<div>
-					<p>
-						I'm Marcelo, a Brazilian Software Engineer, passionate about
-						Software Development and best practices.
-					</p>
-					<p>
-						A Experienced Full Stack Engineer with a demonstrated history of
-						working in the information technology and services industry. Skilled
-						in Java, Spring MVC, Spring Boot, JavaEE, Maven, Hibernate, SOLID
-						Principles, and Front End technologies such as React, React Native,
-						Javascript, JQuery, HTML and CSS.
-					</p>
-					<p>
-						Student of Information Systems at the Regional University of
-						Blumenau (FURB).
-					</p>
-					<p>Enthusiast and lover of technology.</p>
+					<p>{t("bio-1")}</p>
+					<p>{t("bio-2")}</p>
+					<p>{t("bio-3")}</p>
+					<p>{t("bio-4")}</p>
 				</div>
 
-				<h2>Experience</h2>
+				<h2>{t("exp-title")}</h2>
+				<hr />
 				<div>
-					<hr />
-					<h3>Full Stack Developer</h3>
+					<h3>{t("exp-occupation-1")}</h3>
 					<div className="job-period">
 						<a href="https://www.teclogica.com.br/">
 							<h4 className="job-period-h4">Teclógica</h4>
 						</a>
-						<h4 className="job-period-h4">10/2018 - Now</h4>
+						<h4 className="job-period-h4">10/2018 - {t("now")}</h4>
 					</div>
+					<p>{t("exp-1-1")}</p>
 					<p>
-						Working as a FullStack developer, developing projects in different
-						business areas.
+						<b>Backend Stack:</b> {t("exp-1-2")}
 					</p>
 					<p>
-						<b>Backend Stack:</b> Java, Oracle, PostgreSQL, Java EE, Hibernate,
-						Maven, ActiveMQ, Oracle AQ, JBoss, Wildfly, WebLogic and the CI
-						maintenance (Jenkins).
-					</p>
-					<p>
-						<b>Frontend Stack:</b> React, HTML5, JQuery, CSS, Javascript (ES6+)
-						and NodeJS.
+						<b>Frontend Stack:</b> {t("exp-1-3")}
 					</p>
 				</div>
-
+				<hr />
 				<div>
-					<hr />
-					<h3>Backend Developer</h3>
+					<h3>{t("exp-occupation-2")}</h3>
 					<div className="job-period">
 						<h4 className="job-period-h4">Pública Tecnologia</h4>
 						<h4 className="job-period-h4">08/2016 - 10/2018</h4>
 					</div>
 
+					<p>{t("exp-2-1")}</p>
 					<p>
-						Worked as a BackEnd developer implementing new features and bug
-						fixes on e-Publica, an ERP system developed to government entities
-						management used by more than 100 cities in Brazil.
+						<b>Backend Stack:</b> {t("exp-2-2")}
 					</p>
 					<p>
-						<b>Backend Stack:</b> Java, Spring Framework, Hibernate, Maven and
-						Wildfly.
-					</p>
-					<p>
-						<b>Frontend Stack:</b> AngularJS, Angular 2+, HTML5 and CSS3.
+						<b>Frontend Stack:</b> {t("exp-2-3")}
 					</p>
 				</div>
 
+				<hr />
 				<div>
-					<hr />
-					<h3>Trainee - Software Developer</h3>
+					<h3>{t("exp-occupation-3")}</h3>
 					<div className="job-period">
 						<h4 className="job-period-h4">Pública Tecnologia</h4>
 						<h4 className="job-period-h4">03/2016 - 08/2016</h4>
 					</div>
 
+					<p>{t("exp-3-1")}</p>
 					<p>
-						Worked customizing and implementing new features on Senior Sistemas'
-						ERP.
-					</p>
-					<p>
-						<b>Main Stack:</b> SQL Server and LSP (Linguagem Senior de
-						Programação).
+						<b>Main Stack:</b> {t("exp-3-2")}
 					</p>
 				</div>
 
 				<div>
-					<h2>Qualifications and Professional Activies</h2>
+					<h2>{t("qualifications-title")}</h2>
 					<hr />
-					<p>Programming Languages/Frameworks:</p>
+					<p>{t("qualifications-subtitle-1")}</p>
 					<ul>
-						<li>
-							Java, JavaScript (ES6+), React, React Native, AngularJS, Angular2+
-							(TypeScript), Python and NodeJS;
-						</li>
+						<li>{t("qualifications-desc-1")}</li>
 					</ul>
 
-					<p>EE Frameworks:</p>
+					<p>{t("qualifications-subtitle-2")}</p>
 					<ul>
-						<li>Spring Boot, JavaEE and Spring Framework;</li>
+						<li>{t("qualifications-desc-2")}</li>
 					</ul>
 
-					<p>Application Servers:</p>
+					<p>{t("qualifications-subtitle-3")}</p>
 					<ul>
-						<li>Jboss, Wildfly, WebLogic e WebSphere Liberty;</li>
+						<li>{t("qualifications-desc-3")}</li>
 					</ul>
 
-					<p>Databases:</p>
+					<p>{t("qualifications-subtitle-4")}</p>
 					<ul>
-						<li>MySQL, SQLServer, PostgreSQL e Oracle;</li>
+						<li>{t("qualifications-desc-4")}</li>
 					</ul>
 				</div>
 
 				<div>
-					<h2>Certifications and Courses</h2>
+					<h2>{t('certifications')}</h2>
 					<hr />
 					<ul>
 						<li>Oracle Certified Associate, Java SE 8 Programmer I</li>
@@ -132,7 +124,7 @@ const RightContainer = () => {
 								className="whiteLink"
 								href="https://www.udemy.com/certificate/UC-MGGEOZH6/"
 							>
-								Certificate
+								{t('certificate')}
 							</a>
 							)
 						</li>
@@ -140,11 +132,11 @@ const RightContainer = () => {
 				</div>
 
 				<div>
-					<h2>Languages</h2>
+					<h2>{t('languages-title')}</h2>
 					<hr />
 					<ul>
-						<li>Portuguese - Native</li>
-						<li>(01/2013 - 12/2018) English - Yázigi - CEFR Level 2</li>
+						<li>{t('languages-1')}</li>
+						<li>{t('languages-2')}</li>
 					</ul>
 				</div>
 			</div>
