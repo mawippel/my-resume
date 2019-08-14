@@ -1,11 +1,8 @@
 import React from "react";
+import Loader from "react-loader-spinner";
 
-const Loader = () => {
-	return (
-		<div className="App">
-			<div>loading...</div>
-		</div>
-	);
+const OvalLoader = () => {
+	return <Loader type="Oval" color="#00BFFF" height="100" width="100" />;
 };
 
-export default Loader;
+export default OvalLoader;
