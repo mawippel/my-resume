@@ -9,6 +9,7 @@ const RightContainer = () => {
 
 	const changeLanguage = lng => {
 		i18n.changeLanguage(lng);
+		document.title = t('page-title')
 	};
 
 	return (
