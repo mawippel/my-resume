@@ -7,7 +7,7 @@ import './styles/main.css';
 library.add(fab)
 
 const App = () => {
-  return <MainContainer className='app-container' />
+  return <MainContainer />
 }
 
 export default App;

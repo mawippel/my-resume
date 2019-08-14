@@ -9,11 +9,6 @@
 	text-align: left;
 }
 
-.whiteLink {
-  color: lightblue;
-	text-decoration: none;
-}
-
 .container {
 	height: 100%;
 	background-color: #343434;
@@ -142,4 +137,9 @@ h3 {
 
 .experiences, .qualifications, .languages {
 	padding-left: 20px;
+}
+
+.whiteLink {
+  color: lightblue;
+	text-decoration: none;
 }
