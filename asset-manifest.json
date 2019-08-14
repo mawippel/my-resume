@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-resume/static/css/main.80788ae5.chunk.css",
+    "main.js": "/my-resume/static/js/main.465ff878.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.465ff878.chunk.js.map",
+    "runtime~main.js": "/my-resume/static/js/runtime~main.8f79120b.js",
+    "runtime~main.js.map": "/my-resume/static/js/runtime~main.8f79120b.js.map",
+    "static/js/2.c8de81e8.chunk.js": "/my-resume/static/js/2.c8de81e8.chunk.js",
+    "static/js/2.c8de81e8.chunk.js.map": "/my-resume/static/js/2.c8de81e8.chunk.js.map",
+    "index.html": "/my-resume/index.html",
+    "precache-manifest.5c62c6c688a3dc1817e1e219c67b76ad.js": "/my-resume/precache-manifest.5c62c6c688a3dc1817e1e219c67b76ad.js",
+    "service-worker.js": "/my-resume/service-worker.js",
+    "static/css/main.80788ae5.chunk.css.map": "/my-resume/static/css/main.80788ae5.chunk.css.map",
+    "static/media/Marcelo.jpg": "/my-resume/static/media/Marcelo.f591ea75.jpg",
+    "static/media/oca-badge.png": "/my-resume/static/media/oca-badge.b804ad7a.png",
+    "static/media/ocp-badge.png": "/my-resume/static/media/ocp-badge.4ef4eee0.png",
+    "static/media/us-flag.png": "/my-resume/static/media/us-flag.7d7fbe34.png"
+  }
+}
