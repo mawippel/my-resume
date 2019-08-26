@@ -10,8 +10,8 @@
 	"exp-title": "Experiência",
 	"exp-occupation-1": "Desenvolvedor Full Stack",
 	"exp-1-1": "Trabalhando como desenvolvedor Full Stack na Fábrica de Software, desenvolvendo projetos nas mais diferentes áreas de negócio.",
-	"exp-1-2": "Java, Oracle, PostgreSQL, Java EE, Hibernate,Maven, ActiveMQ, Oracle AQ, JBoss, Wildfly, WebLogic e mantenimento do CI (Jenkins).",
-	"exp-1-3": "React, HTML5, JQuery, CSS, Javascript (ES6+) e NodeJS.",
+	"exp-1-2": "Java, Java EE, Hibernate, Maven, NodeJS, Oracle, PostgreSQL, ActiveMQ, IBM MQ, Oracle AQ, JBoss, Wildfly, OpenLiberty, WebLogic e mantenimento do CI (Jenkins).",
+	"exp-1-3": "React, HTML5, JQuery, CSS e Javascript (ES6+).",
 	
 	"exp-occupation-2": "Desenvolvedor Backend",
 	"exp-2-1": "Atuei como desenvolvedor Backend, implementando novas funcionalidades e corrigindo bugs no e-Publica, um ERP desenvolvido para gestão de cidades, usado por mais de 100 cidades no Brasil.",
@@ -29,7 +29,7 @@
 	"qualifications-subtitle-4":"Bancos de Dados:",
 	"qualifications-desc-1":"Java, JavaScript (ES6+), React, React Native, AngularJS, Angular2+ (TypeScript), Python e NodeJS;",
 	"qualifications-desc-2":"Spring Boot, JavaEE e Spring Framework;",
-	"qualifications-desc-3":"Jboss, Wildfly, WebLogic e WebSphere Liberty;",
+	"qualifications-desc-3":"Jboss, Wildfly, WebLogic e Open Liberty;",
 	"qualifications-desc-4":"MySQL, SQLServer, PostgreSQL e Oracle;",
 
 	"certifications":"Certificações e Cursos",
