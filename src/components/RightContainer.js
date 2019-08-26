@@ -53,7 +53,8 @@ const RightContainer = () => {
 						<PlaceAndPeriod
 							href="http://www.publica.inf.br/"
 							placeName="Pública Tecnologia"
-							startDate="08/2016 - 10/2018"
+							startDate="08/2016"
+							endDate="10/2018"
 						/>
 						<Paragraph title="exp-2-1" />
 						<Paragraph title="exp-2-2">
@@ -69,7 +70,8 @@ const RightContainer = () => {
 						<PlaceAndPeriod
 							href="http://www.publica.inf.br/"
 							placeName="Pública Tecnologia"
-							startDate="03/2016 - 08/2016"
+							startDate="03/2016"
+							endDate="08/2016"
 						/>
 						<Paragraph title="exp-3-1" />
 						<Paragraph title="exp-3-2">
